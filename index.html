@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+             screens: {
+      '2xl': {'max': '1535px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1023px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
+    }
+          }
+        }
+      </script>
+    <title>Document</title>
+</head>
+<body class="leading-6 box-border p-0 m-0 bg-blue-400">
+    <nav class="bg-blue-500 text-white h-[60px]">
+        <div class="container mx-auto flex justify-between items-center h-full max-w-[1100px]">
+            <div>
+                <h1 class="text-2xl font-bold">Hey Devs</h1>
+            </div>
+            <ul class="flex">
+                <li class="ml-6"><a href="">Home</a></li>
+                <li class="ml-6"><a href="">About</a></li>
+                <li class="ml-6"><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+   <header class="bg-blue-700 text-white">
+       <div class="container mx-auto flex justify-between items-center max-w-[1100px] md:flex-col">
+           <div>
+            <h1 class="font-bold text-5xl mb-[15px]">Learn Beyond the skill</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore expedita eaque quo, sit quibusdam omnis accusantium, cum ipsum, velit reiciendis vero autem. Iure harum deserunt asperiores, explicabo vero tempora.</p>
+           </div>
+           <img class="max-w-[400px]" src="https://traversymedia.com/images/grid.svg" alt="load image">
+
+       </div>
+   </header>
+   <section>
+       <div class="container mx-auto max-w-[1100px] flex justify-between text-white md:block md:text-center">
+           <div class="order-1 bg-blue-800 rounded-[15px] ml-[20px] mt-[20px] p-[20px]">
+            <h2 class="text-[25px] mb-[16px]"><i class="fas fa-arrows-alt-v mr-[10px]"></i>Alignment & Space</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam earum fugiat</p>
+           </div>
+           <div class="order-1 bg-blue-800 rounded-[15px] ml-[20px] mt-[20px] p-[20px]">
+            <h2 class="text-[25px] mb-[16px]"><i class="fas fa-arrows-alt mr-[10px]"></i>Trickey Boxes</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam earum fugiat</p>
+        </div>
+        <div class="order-1 bg-blue-800 rounded-[15px] ml-[20px] mt-[20px] p-[20px]">
+            <h2 class="text-[25px] mb-[16px]"><i class="fas fa-mobile mr-[10px]"></i>Responsice Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam earum fugiat</p>
+        </div>
+
+       </div>
+   </section>
+</body>
+</html>
